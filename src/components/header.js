@@ -1,6 +1,7 @@
 // src/Header.js
 import React from 'react';
 import './header.css';
+import logo from '../img/logo.png'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="left">
         <div className="logo">
             <img
-                src="./img/logo.png"
+                src= {logo}
                 alt="Space Logo"
                 height="40"
             />
