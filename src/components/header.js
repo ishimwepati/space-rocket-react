@@ -1,8 +1,7 @@
-
 import React from 'react';
 import './header.css';
 import logo from '../img/logo.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -21,14 +20,14 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/rockets">Rockets</Link> 
+              <NavLink to="/rockets">Rockets</NavLink>
             </li>
             <li>
-              <Link to="/missions">Missions</Link>
+              <NavLink to="/missions">Missions</NavLink>
             </li>
             <li>|</li>
             <li>
-              <Link to="/profile">My Profile</Link> 
+              <NavLink to="/profile">My Profile</NavLink>
             </li>
           </ul>
         </nav>
