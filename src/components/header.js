@@ -7,8 +7,11 @@ const Header = () => {
     <header>
       <div className="left">
         <div className="logo">
-          {/* Insert your icon here */}
-          <span role="img" aria-label="Space Icon">🚀</span>
+            <img
+                src="./img/logo.png"
+                alt="Space Logo"
+                height="40"
+            />
           <span>Space Traveler's Hub</span>
         </div>
       </div>
