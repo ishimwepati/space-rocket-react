@@ -1,4 +1,4 @@
-// src/Header.js
+
 import React from 'react';
 import './header.css';
 import logo from '../img/logo.png'

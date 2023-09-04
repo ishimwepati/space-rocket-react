@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* Add your app content below */}
+      
     </div>
   );
 }
