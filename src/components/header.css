@@ -1,0 +1,51 @@
+/* src/Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo span {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  
+  .right nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .right nav li {
+    margin-right: 20px;
+  }
+  
+  .right nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style the links on hover if desired */
+  .right nav a:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
