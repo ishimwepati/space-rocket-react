@@ -5,6 +5,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     border-bottom: 2px solid #ccc;
+    margin: 0 40px; 
   }
   
   .left {
@@ -41,16 +42,16 @@ header {
   
   .right nav a {
     text-decoration: none;
-    color:#007bff;
+    color: #333;
     font-weight: bold;
     transition: text-decoration 0.2s ease-in-out; 
   }
   
   .right nav a:hover {
-    color:  #333; 
+    color: #007bff; 
   }
   
   .right nav a:visited {
-    text-decoration: underline;
+    text-decoration: underline; 
   }
   
