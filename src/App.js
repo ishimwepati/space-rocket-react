@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header';
@@ -10,15 +9,13 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes> 
-        <Route path="/rockets" element={<Rockets />} /> 
+      <Routes>
+        <Route path="/rockets" element={<Rockets />} />
         <Route path="/missions" element={<Missions />} />
-        <Route path="/profile" element={<Profile />} /> 
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
-
-
