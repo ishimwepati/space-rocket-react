@@ -20,7 +20,7 @@ function Rockets() {
         {selectedRockets.map((rocket) => (
           <li key={rocket.id} className="rocket-item">
             <img
-              src={rocket.flickr_images[0]} // Use the appropriate image source
+              src={rocket.flickr_images[0]}
               alt={rocket.rocket_name}
               className="rocket-image"
             />

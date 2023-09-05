@@ -1,11 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
-import rocketReducer from './reducers/rocketReducer'; // Import your rocketReducer
-// Import other reducers if you have them
+import rocketReducer from './reducers/rocketReducer';
 
 const store = configureStore({
   reducer: {
-    rocketReducer, // Add other reducers here if needed
+    rocketReducer,
   },
   middleware: [thunk],
 });

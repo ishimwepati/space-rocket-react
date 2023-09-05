@@ -3,7 +3,7 @@
 import { FETCH_SELECTED_ROCKETS } from '../actions/types';
 
 const initialState = {
-  selectedRockets: [], // Initial state for selected rockets data
+  selectedRockets: [],
 };
 
 const rocketReducer = (state = initialState, action) => {
@@ -11,7 +11,7 @@ const rocketReducer = (state = initialState, action) => {
     case FETCH_SELECTED_ROCKETS:
       return {
         ...state,
-        selectedRockets: action.payload, // Update selected rockets data in the store
+        selectedRockets: action.payload,
       };
     default:
       return state;
