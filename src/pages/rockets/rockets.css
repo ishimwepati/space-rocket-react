@@ -1,0 +1,35 @@
+/* Add this CSS to your component's CSS file */
+.rocket_body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rocket_body h2{
+  text-align: center;
+}
+.rocket-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rocket-image {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 20px;
+}
+
+.rocket-details {
+  flex-grow: 1;
+}
+
+.rocket-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rocket-description {
+  font-size: 1rem;
+  color: #666;
+}
