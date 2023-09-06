@@ -27,6 +27,11 @@ function Rockets() {
       <ul className="rocket-list">
         {selectedRockets.map((rocket) => (
           <li key={rocket.id} className="rocket-item">
+            <img
+              src={rocket.flickr_images[0]}
+              alt={rocket.rocket_name}
+              className="rocket-image"
+            />
             <div className="rocket-details">
               <h3 className="rocket-name">{rocket.name}</h3>
               <p className="rocket-description">
@@ -51,11 +56,6 @@ function Rockets() {
                 </button>
               )}
             </div>
-            <img
-              src={rocket.flickr_images[0]}
-              alt={rocket.rocket_name}
-              className="rocket-image"
-            />
           </li>
         ))}
       </ul>
