@@ -45,3 +45,71 @@
   font-weight: bold;
   margin-right: 10px; /* Adjust spacing as needed */
 }
+
+/* Style for the Reserve Rocket button */
+.reserve-rocket-button {
+  background-color: #2371ee;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reserve-rocket-button:hover {
+  background-color: #666
+}
+
+/* Style for the Cancel Reservation button */
+.cancel-reservation-button {
+  color: rgb(3, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-reservation-button:hover {
+  background-color: #cbb8b8;
+}
+
+/* Style for the Reserved badge */
+.reserved-badge {
+  background-color: #ff9800;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Additional styles for rocket items */
+.rocket-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rocket-details {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+.reserved-word{
+  color: rgb(249, 248, 247);
+  background-color: green;
+  border-radius: 5px;
+  
+}
+/* Other styles as needed */

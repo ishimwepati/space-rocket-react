@@ -35,7 +35,7 @@ function Rockets() {
             <div className="rocket-details">
               <h3 className="rocket-name">{rocket.name}</h3>
               <p className="rocket-description">
-                {rocket.reserved ? 'Reserved - ' : ''}
+                <span className="reserved-word">{rocket.reserved ? ' \u00A0 Reserved\u00A0 ' : ''}</span>
                 {rocket.description}
               </p>
               {rocket.reserved ? (
