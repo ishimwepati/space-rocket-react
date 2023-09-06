@@ -36,3 +36,12 @@
   font-size: 1rem;
   color: #666;
 }
+
+.reserved-badge {
+  background-color: #f00; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 10px; /* Adjust spacing as needed */
+}
