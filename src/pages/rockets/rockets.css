@@ -11,6 +11,7 @@
 .rocket-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -18,10 +19,6 @@
   max-width: 150px;
   max-height: 200px;
   margin-right: 20px;
-}
-
-.rocket-details {
-  flex-grow: 1;
 }
 
 .rocket-name {
@@ -35,15 +32,6 @@
   margin-top: -5px;
   font-size: 1rem;
   color: #666;
-}
-
-.reserved-badge {
-  background-color: #f00; /* Change the background color as needed */
-  color: #fff; /* Change the text color as needed */
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-weight: bold;
-  margin-right: 10px; /* Adjust spacing as needed */
 }
 
 /* Style for the Reserve Rocket button */
@@ -62,7 +50,7 @@
 }
 
 .reserve-rocket-button:hover {
-  background-color: #666
+  background-color: #666;
 }
 
 /* Style for the Cancel Reservation button */
@@ -95,21 +83,15 @@
 }
 
 /* Additional styles for rocket items */
-.rocket-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
 .rocket-details {
   flex-grow: 1;
   margin-left: 20px;
 }
-.reserved-word{
+
+.reserved-word {
   color: rgb(249, 248, 247);
   background-color: green;
   border-radius: 5px;
-  
 }
+
 /* Other styles as needed */
