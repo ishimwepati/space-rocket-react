@@ -1,0 +1,21 @@
+/* Missions.css */
+.missions-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.missions-table th,
+.missions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.missions-table th {
+  background-color: #f2f2f2;
+}
+
+/* Style odd rows with a distinctive color */
+.missions-table tbody tr:nth-child(odd) {
+  background-color: #ddd; /* You can change this color to your preference */
+}
