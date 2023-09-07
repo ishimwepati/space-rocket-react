@@ -47,7 +47,6 @@
 }
 
 .activeMember {
- display: none;
  background-color: rgb(30, 153, 184);
  padding: 3px;
  color: white;
@@ -55,7 +54,7 @@
 }
 
 .joinBtn {
-  display: none;
+  display: flex;
 }
 
 .leaveBtn {

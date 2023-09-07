@@ -1,5 +1,4 @@
-// src/components/Missions.js
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions } from '../../redux/missionsSlice';
 import './missions.css';
@@ -10,9 +9,18 @@ const Missions = () => {
   const status = useSelector((state) => state.missions.status);
   const error = useSelector((state) => state.missions.error);
 
+  const [missionStatus, setMissionStatus] = useState({});
+
   useEffect(() => {
     dispatch(fetchMissions());
   }, [dispatch]);
+
+  const toggleStatus = (missionId) => {
+    setMissionStatus((prevStatus) => ({
+      ...prevStatus,
+      [missionId]: !prevStatus[missionId],
+    }));
+  };
 
   let content;
 
@@ -44,13 +52,20 @@ const Missions = () => {
                 <td>{mission.mission_name}</td>
                 <td>{mission.description}</td>
                 <td>
-                  <span className="notAMemeber"> Not a member </span>
-                  <span className="activeMember"> Acive member </span>
+                  {missionStatus[mission.mission_id] ? (
+                    <span className="activeMember">Active member</span>
+                  ) : (
+                    <span className="notAMemeber">Not a member</span>
+                  )}
                 </td>
                 <td>
-                  <button className="joinBtn" type="button">Leave Mission </button>
-                  {' '}
-                  <button className="leaveBtn" type="button">Join Mission </button>
+                  <button
+                    className={missionStatus[mission.mission_id] ? 'leaveBtn' : 'joinBtn'}
+                    type="button"
+                    onClick={() => toggleStatus(mission.mission_id)}
+                  >
+                    {missionStatus[mission.mission_id] ? 'Leave Mission' : 'Join Mission'}
+                  </button>
                 </td>
               </tr>
             ))}
