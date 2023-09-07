@@ -1,4 +1,4 @@
-// src/redux/actions/rocketActions.js
+// my src/redux/actions/rocketActions.js
 
 import axios from 'axios';
 import { FETCH_SELECTED_ROCKETS, RESERVE_ROCKET, CANCEL_RESERVATION } from './types';
@@ -20,13 +20,12 @@ export const fetchSelectedRockets = () => async (dispatch) => {
     console.error('Error fetching selected rockets:', error);
   }
 };
-// Action creator to reserve a rocket
+
 export const reserveRocket = (rocketId) => ({
   type: RESERVE_ROCKET,
   payload: rocketId,
 });
 
-// Action creator to cancel a rocket reservation
 export const cancelReservation = (rocketId) => ({
   type: CANCEL_RESERVATION,
   payload: rocketId,

@@ -4,7 +4,8 @@
   margin-right: 5%;
 }
 
-.rocket_body h2 {
+.heading {
+  color: #050300;
   text-align: center;
 }
 
@@ -34,7 +35,6 @@
   color: #666;
 }
 
-/* Style for the Reserve Rocket button */
 .reserve-rocket-button {
   background-color: #2371ee;
   color: white;
@@ -53,7 +53,6 @@
   background-color: #666;
 }
 
-/* Style for the Cancel Reservation button */
 .cancel-reservation-button {
   color: rgb(3, 0, 0);
   padding: 10px 20px;
@@ -71,7 +70,6 @@
   background-color: #cbb8b8;
 }
 
-/* Style for the Reserved badge */
 .reserved-badge {
   background-color: #ff9800;
   color: white;
@@ -82,7 +80,6 @@
   margin-right: 10px;
 }
 
-/* Additional styles for rocket items */
 .rocket-details {
   flex-grow: 1;
   margin-left: 20px;
@@ -93,5 +90,3 @@
   background-color: green;
   border-radius: 5px;
 }
-
-/* Other styles as needed */
