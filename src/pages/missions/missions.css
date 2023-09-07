@@ -1,4 +1,4 @@
-/* Missions.css */
+/* missions.css */
 .missions-table {
   border-collapse: collapse;
   width: 100%;
@@ -17,5 +17,24 @@
 
 /* Style odd rows with a distinctive color */
 .missions-table tbody tr:nth-child(odd) {
-  background-color: #ddd; /* You can change this color to your preference */
+  background-color: #e6f7ff; /* You can change this color to your preference */
 }
+
+.missions-table td:first-child  {
+  width: 10%;
+}
+
+
+.missions-table th:nth-child(2) {
+  width: 65%; /* Adjust the width as needed */
+}
+
+.missions-table td:nth-child(3)  {
+  width: 12.5%
+}
+
+
+.missions-table td:last-child {
+  width: 12.5%; /* Adjust the width as needed */
+}
+
