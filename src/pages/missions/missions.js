@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions, toggleMissionStatus } from '../../redux/missionsSlice'; // Import the new action
 import './missions.css';
+import spinner from '../../img/Spinner-5.gif';
 
 const Missions = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,7 @@ const Missions = () => {
   let content = '';
 
   if (status === 'loading') {
-    content = <div>Loading...</div>;
+    content = <div className="spinnerCont"><img src={spinner} alt="Loading Icon" /></div>;
   } else if (status === 'failed') {
     content = (
       <div>

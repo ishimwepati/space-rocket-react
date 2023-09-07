@@ -61,3 +61,11 @@
   padding: 3px;
   color: rgb(163, 34, 34);
 }
+
+.spinnerCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
