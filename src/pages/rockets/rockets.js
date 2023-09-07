@@ -7,18 +7,22 @@ import './rockets.css';
 
 function Rockets() {
   const dispatch = useDispatch();
-  const selectedRockets = useSelector((state) => state.rocketReducer.selectedRockets);
+  const { selectedRockets, reservedRockets } = useSelector((state) => state.rocketReducer);
 
   useEffect(() => {
     dispatch(fetchSelectedRockets());
   }, [dispatch]);
 
   const handleReserveClick = (rocketId) => {
-    dispatch(reserveRocket(rocketId));
+    if (!reservedRockets.includes(rocketId)) {
+      dispatch(reserveRocket(rocketId));
+    }
   };
 
   const handleCancelClick = (rocketId) => {
-    dispatch(cancelReservation(rocketId));
+    if (reservedRockets.includes(rocketId)) {
+      dispatch(cancelReservation(rocketId));
+    }
   };
 
   return (

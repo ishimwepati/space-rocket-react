@@ -4,6 +4,7 @@ import { FETCH_SELECTED_ROCKETS, RESERVE_ROCKET, CANCEL_RESERVATION } from '../a
 
 const initialState = {
   selectedRockets: [], // Initial state for selected rockets data
+  reservedRockets: [], // Initial state for reserved rockets
 };
 
 const rocketReducer = (state = initialState, action) => {
