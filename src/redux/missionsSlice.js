@@ -15,7 +15,7 @@ export const fetchMissions = createAsyncThunk('missions/fetchMissions', async ()
     return response.data;
   } catch (error) {
     // Handle the error here
-    console.error('An error occurred while fetching missions:', error);
+    alert.error('An error occurred while fetching missions:', error);
     throw error;
   }
 });
