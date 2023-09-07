@@ -1,4 +1,4 @@
-// src/pages/rockets/rockets.js
+// this is my src/pages/rockets/rockets.js
 
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -45,7 +45,7 @@ function Rockets() {
               </p>
               {rocket.reserved ? (
                 <button
-                  type="button" // Add type attribute
+                  type="button"
                   className="cancel-reservation-button"
                   onClick={() => handleCancelClick(rocket.id)}
                 >
@@ -53,7 +53,7 @@ function Rockets() {
                 </button>
               ) : (
                 <button
-                  type="button" // Add type attribute
+                  type="button"
                   className="reserve-rocket-button"
                   onClick={() => handleReserveClick(rocket.id)}
                 >

@@ -1,4 +1,4 @@
-// src/pages/profile/profile.js
+// my src/pages/profile/profile.js
 
 import React from 'react';
 import { useSelector } from 'react-redux';
