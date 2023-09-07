@@ -27,7 +27,7 @@ function Rockets() {
 
   return (
     <div className="rocket-body">
-      <h2>Checkout Available Rockets</h2>
+      <h2 className="heading">Checkout Available Rockets</h2>
       <ul className="rocket-list">
         {selectedRockets.map((rocket) => (
           <li key={rocket.id} className="rocket-item">
