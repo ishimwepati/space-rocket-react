@@ -20,7 +20,7 @@ const Missions = () => {
     dispatch(toggleMissionStatus({ missionId }));
   };
 
-  let content;
+  let content = '';
 
   if (status === 'loading') {
     content = <div>Loading...</div>;
@@ -47,7 +47,7 @@ const Missions = () => {
           <tbody>
             {missions.map((mission) => (
               <tr key={mission.mission_id}>
-                <td>{mission.mission_name}</td>
+                <td><strong>{mission.mission_name}</strong></td>
                 <td>{mission.description}</td>
                 <td>
                   {missionStatus[mission.mission_id] ? (
