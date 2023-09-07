@@ -43,7 +43,7 @@ const Missions = () => {
               <tr key={mission.mission_id}>
                 <td>{mission.mission_name}</td>
                 <td>{mission.description}</td>
-                <td>{mission.status}</td>
+                <td><span className="membershipStatus"> Not a member </span></td>
                 <td><button type="button">Button 1</button></td>
               </tr>
             ))}
