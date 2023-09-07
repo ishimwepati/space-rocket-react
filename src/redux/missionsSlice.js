@@ -21,7 +21,10 @@ const missionsSlice = createSlice({
     toggleMissionStatus: (state, action) => {
       // Add a reducer to toggle mission status
       const { missionId } = action.payload;
-      state.missionStatus[missionId] = !state.missionStatus[missionId];
+      state.missionStatus = {
+        ...state.missionStatus,
+        [missionId]: !state.missionStatus[missionId],
+      };
     },
   },
   extraReducers: (builder) => {
