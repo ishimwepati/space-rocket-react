@@ -54,9 +54,10 @@
 }
 
 .joinBtn {
-  display: flex;
+  padding: 3px;
 }
 
 .leaveBtn {
-  display: flex;
+  padding: 3px;
+  color: rgb(163, 34, 34);
 }

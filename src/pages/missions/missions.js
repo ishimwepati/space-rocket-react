@@ -1,25 +1,23 @@
-import React, { useEffect, useState } from 'react';
+// src/components/Missions.js
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMissions } from '../../redux/missionsSlice';
+import { fetchMissions, toggleMissionStatus } from '../../redux/missionsSlice'; // Import the new action
 import './missions.css';
 
 const Missions = () => {
   const dispatch = useDispatch();
   const missions = useSelector((state) => state.missions.missions);
+  const missionStatus = useSelector((state) => state.missions.missionStatus); // Add missionStatus
   const status = useSelector((state) => state.missions.status);
   const error = useSelector((state) => state.missions.error);
-
-  const [missionStatus, setMissionStatus] = useState({});
 
   useEffect(() => {
     dispatch(fetchMissions());
   }, [dispatch]);
 
+  // Update the toggleStatus function to dispatch the toggleMissionStatus action
   const toggleStatus = (missionId) => {
-    setMissionStatus((prevStatus) => ({
-      ...prevStatus,
-      [missionId]: !prevStatus[missionId],
-    }));
+    dispatch(toggleMissionStatus({ missionId }));
   };
 
   let content;
