@@ -43,8 +43,15 @@ const Missions = () => {
               <tr key={mission.mission_id}>
                 <td>{mission.mission_name}</td>
                 <td>{mission.description}</td>
-                <td><span className="membershipStatus"> Not a member </span></td>
-                <td><button type="button">Button 1</button></td>
+                <td>
+                  <span className="notAMemeber"> Not a member </span>
+                  <span className="activeMember"> Acive member </span>
+                </td>
+                <td>
+                  <button className="joinBtn" type="button">Leave Mission </button>
+                  {' '}
+                  <button className="leaveBtn" type="button">Join Mission </button>
+                </td>
               </tr>
             ))}
           </tbody>

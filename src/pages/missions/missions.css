@@ -1,49 +1,63 @@
 /* missions.css */
 .missions-table {
-  border-collapse: collapse;
-  width: 100%;
+ border-collapse: collapse;
+ width: 100%;
 }
 
 .missions-table th,
 .missions-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+ border: 1px solid #ddd;
+ padding: 8px;
+ text-align: left;
 }
 
 .missions-table th {
-  background-color: #f2f2f2;
+ background-color: #f2f2f2;
 }
 
 /* Style odd rows with a distinctive color */
 .missions-table tbody tr:nth-child(odd) {
-  background-color: #ddd; 
+ background-color: #ddd;
 }
 
-.missions-table td:first-child  {
-  width: 10%;
+.missions-table td:first-child {
+ width: 10%;
 }
-
 
 .missions-table th:nth-child(2) {
-  width: 65%; /* Adjust the width as needed */
+ width: 65%; /* Adjust the width as needed */
 }
 
-.missions-table td:nth-child(3)  {
-  width: 12.5%;
-  text-align: center;
+.missions-table td:nth-child(3) {
+ width: 12.5%;
+ text-align: center;
 }
-
 
 .missions-table td:last-child {
-  width: 12.5%;
-  text-aligN: center;
+ width: 12.5%;
+ text-align: center;
 }
 
 /* background-color: rgb(30, 153, 184); */
-.membershipStatus {
-  background-color: #948f8f;
-  padding: 3px;
-  color: white;
-  border-radius: 3px;
+.notAMemeber {
+ background-color: #948f8f;
+ padding: 3px;
+ color: white;
+ border-radius: 3px;
+}
+
+.activeMember {
+ display: none;
+ background-color: rgb(30, 153, 184);
+ padding: 3px;
+ color: white;
+ border-radius: 3px;
+}
+
+.joinBtn {
+  display: none;
+}
+
+.leaveBtn {
+  display: flex;
 }
