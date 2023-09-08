@@ -9,7 +9,7 @@ const SelectedMissionsPage = () => {
 
   return (
 
-    <table className="missions-table">
+    <table className="missionsTable">
       <thead>
         <tr>
           <th>My Missions</th>
