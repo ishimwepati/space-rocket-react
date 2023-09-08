@@ -2,68 +2,68 @@
 .missions-table {
   border-collapse: collapse;
   width: 100%;
- }
- 
- .missions-table th,
- .missions-table td {
+}
+
+.missions-table th,
+.missions-table td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
- }
- 
- .missions-table th {
+}
+
+.missions-table th {
   background-color: #f2f2f2;
- }
- 
- .missions-table tbody tr:nth-child(odd) {
+}
+
+.missions-table tbody tr:nth-child(odd) {
   background-color: #ddd;
- }
- 
- .missions-table td:first-child {
+}
+
+.missions-table td:first-child {
   width: 10%;
- }
- 
- .missions-table th:nth-child(2) {
+}
+
+.missions-table th:nth-child(2) {
   width: 65%;
- }
- 
- .missions-table td:nth-child(3) {
+}
+
+.missions-table td:nth-child(3) {
   width: 12.5%;
   text-align: center;
- }
- 
- .missions-table td:last-child {
+}
+
+.missions-table td:last-child {
   width: 12.5%;
   text-align: center;
- }
- 
- .notAMemeber {
+}
+
+.notAMemeber {
   background-color: #948f8f;
   padding: 3px;
   color: white;
   border-radius: 3px;
- }
- 
- .activeMember {
+}
+
+.activeMember {
   background-color: rgb(30, 153, 184);
   padding: 3px;
   color: white;
   border-radius: 3px;
- }
- 
- .joinBtn {
-   padding: 3px;
- }
- 
- .leaveBtn {
-   padding: 3px;
-   color: rgb(163, 34, 34);
- }
- 
- .spinnerCont {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100vw;
-   height: 100vh;
- }
+}
+
+.joinBtn {
+  padding: 3px;
+}
+
+.leaveBtn {
+  padding: 3px;
+  color: rgb(163, 34, 34);
+}
+
+.spinnerCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}

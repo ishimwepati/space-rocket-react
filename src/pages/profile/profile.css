@@ -14,9 +14,10 @@ h2 {
   margin-bottom: 20px;
 }
 
-.rocket-table, 
+.rocket-table,
 .missionsTable {
   width: 47.5%;
+  /* stylelint-disable-next-line */
   height: fit-content;
   border-collapse: collapse;
   margin-top: 20px;

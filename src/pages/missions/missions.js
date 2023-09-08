@@ -16,7 +16,6 @@ const Missions = () => {
     dispatch(fetchMissions());
   }, [dispatch]);
 
-
   const toggleStatus = (missionId) => {
     dispatch(toggleMissionStatus({ missionId }));
   };
