@@ -3,6 +3,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './profile.css';
+import SelectedMissionsPage from '../missions/selectedMIssions';
 
 function Profile() {
   // eslint-disable-next-line
@@ -10,11 +11,11 @@ function Profile() {
 
   return (
     <div className="profile-body">
-      <h2>Your Reserved Rockets</h2>
+      <SelectedMissionsPage />
       <table className="rocket-table">
         <thead>
           <tr>
-            <th>Rocket Name</th>
+            <th>My Rockets</th>
           </tr>
         </thead>
         <tbody>

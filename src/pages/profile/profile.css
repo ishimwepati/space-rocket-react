@@ -1,6 +1,10 @@
 /* src/pages/profile/profile.css */
 
 .profile-body {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 4%;
   padding: 20px;
   text-align: center;
 }
@@ -10,25 +14,30 @@ h2 {
   margin-bottom: 20px;
 }
 
-.rocket-table {
-  margin-left: 50%;
-  width: 30%;
+.rocket-table, 
+.missionsTable {
+  width: 47.5%;
+  height: fit-content;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
 .rocket-table th,
-.rocket-table td {
+.rocket-table td,
+.missionsTable td,
+.missionsTable th {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
-.rocket-table th {
+.rocket-table th,
+.missionsTable th {
   background-color: #f2f2f2;
   font-weight: bold;
 }
 
-.rocket-table tbody tr:hover {
+.rocket-table tbody tr:hover,
+.missionsTable tbody tr:hover {
   background-color: #f5f5f5;
 }
