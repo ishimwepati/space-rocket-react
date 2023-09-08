@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const initialState = {
   missions: [],
-  missionStatus: {}, // Add missionStatus state
+  missionStatus: {},
   status: 'idle',
   error: null,
 };
@@ -14,18 +14,18 @@ export const fetchMissions = createAsyncThunk('missions/fetchMissions', async ()
     const response = await axios.get('https://api.spacexdata.com/v3/missions');
     return response.data;
   } catch (error) {
-    // Handle the error here
+   
     alert.error('An error occurred while fetching missions:', error);
     throw error;
   }
 });
 
 const missionsSlice = createSlice({
-  name: 'missions', // Change the slice name from missionsSlice to 'missions'
+  name: 'missions', 
   initialState,
   reducers: {
     toggleMissionStatus: (state, action) => {
-      // Add a reducer to toggle mission status
+     
       const { missionId } = action.payload;
       state.missionStatus = {
         ...state.missionStatus,

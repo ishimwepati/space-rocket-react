@@ -15,7 +15,6 @@
   background-color: #f2f2f2;
  }
  
- /* Style odd rows with a distinctive color */
  .missions-table tbody tr:nth-child(odd) {
   background-color: #ddd;
  }
@@ -25,7 +24,7 @@
  }
  
  .missions-table th:nth-child(2) {
-  width: 65%; /* Adjust the width as needed */
+  width: 65%;
  }
  
  .missions-table td:nth-child(3) {
@@ -38,7 +37,6 @@
   text-align: center;
  }
  
- /* background-color: rgb(30, 153, 184); */
  .notAMemeber {
   background-color: #948f8f;
   padding: 3px;
