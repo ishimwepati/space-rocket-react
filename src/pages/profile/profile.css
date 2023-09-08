@@ -14,10 +14,10 @@ h2 {
   margin-bottom: 20px;
 }
 
-.rocket-table, 
+.rocket-table,
 .missionsTable {
   width: 47.5%;
-  height: fit-content;
+  height: auto;
   border-collapse: collapse;
   margin-top: 20px;
 }
@@ -29,6 +29,7 @@ h2 {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
+  height: fit-content;
 }
 
 .rocket-table th,
