@@ -1,8 +1,96 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <br/>
+
+  <h1><b>Space Travelers' Hub</b></h1>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Space Travelers' Hub] <a name="about-project"></a>
+
+This is a web application for a company that provides commercial and scientific space travel services. The application allow users to book rockets and join selected space missions.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- **React**
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[create react app]**
+- **[set up linters]**
+- **[Components]**
+- **[Connect React and Redux]**
+- **[Add reducers and actions]**
+- **[useSelector and useDispatch]**
+- **[Connect API]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Coming soon..]()
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+sudo apt install git-all
+or
+npm install
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/Kwaku28/Space-Travelers-Hub.git
+```
+
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +127,60 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- AUTHORS -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👥 Authors <a name="lawrence"></a>
 
-### Code Splitting
+👤 **Michael Darkwah**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- GitHub: [@Mike47ip](https://github.com/Mike47ip)
+- Twitter: [@ip_mikee](https://twitter.com/ip_mikee)
+- LinkedIn: [Michael Darkwah](https://linkedin.com/in/michael-darkwah-81a039141)
 
-### Analyzing the Bundle Size
+👤 **Ishimwe Joseph Patient**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@ishimwepati](https://github.com/ishimwepati)
+- Twitter: [@PatientMusafir1](https://twitter.com/PatientMusafir1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- FUTURE FEATURES -->
 
-### Advanced Configuration
+## 🔭 Future Features <a name="future-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [ ] **[Styling]**
 
-### Deployment
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing <a name="contributing"></a>
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page](https://github.com/ishimwepati/space-rocket-react/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a **STAR**
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank:
+- All Micronauts
+- Standup Team
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/Kwaku28/Space-Travelers-Hub/blob/main/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
