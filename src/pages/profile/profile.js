@@ -12,11 +12,10 @@ function Profile() {
   return (
     <div className="profile-body">
       <SelectedMissionsPage />
-      <h2>Your Reserved Rockets</h2>
       <table className="rocket-table">
         <thead>
           <tr>
-            <th>Rocket Name</th>
+            <th>My Rockets</th>
           </tr>
         </thead>
         <tbody>

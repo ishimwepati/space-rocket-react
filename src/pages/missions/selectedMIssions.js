@@ -8,14 +8,21 @@ const SelectedMissionsPage = () => {
   ));
 
   return (
-    <div className="selected-missions-container">
-      <h2>Selected Missions</h2>
-      <ul>
+
+    <table className="missions-table">
+      <thead>
+        <tr>
+          <th>My Missions</th>
+        </tr>
+      </thead>
+      <tbody>
         {selectedMissions.map((mission) => (
-          <li key={mission.mission_id}>{mission.mission_name}</li>
+          <tr key={mission.mission_id}>
+            <td>{mission.mission_name}</td>
+          </tr>
         ))}
-      </ul>
-    </div>
+      </tbody>
+    </table>
   );
 };
 
