@@ -87,7 +87,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Kwaku28/Space-Travelers-Hub.git
+  git clone https://github.com/ishimwepati/space-rocket-react.git
 ```
 
 # Available Scripts
@@ -131,7 +131,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="lawrence"></a>
+## 👥 Authors <a name="Joseph and Mike"></a>
 
 👤 **Michael Darkwah**
 
@@ -181,6 +181,6 @@ I would like to thank:
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Kwaku28/Space-Travelers-Hub/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/ishimwepati/space-rocket-react/blob/create-readme/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
