@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+  margin: 0 40px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.right nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right nav li {
+  margin-right: 20px;
+}
+
+.right nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: text-decoration 0.2s ease-in-out;
+}
+
+.right nav a:hover {
+  color: #333;
+}
+
+.right nav a.active {
+  text-decoration: underline;
+}
