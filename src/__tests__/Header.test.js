@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Header from './header';
+import Header from '../components/header';
 
 test('renders header component with navigation links', () => {
   render(

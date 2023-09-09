@@ -1,13 +1,16 @@
 // my src/redux/actions/rocketActions.js
 
-import axios from 'axios';
 import { FETCH_SELECTED_ROCKETS, RESERVE_ROCKET, CANCEL_RESERVATION } from './types';
 
 export const fetchSelectedRockets = () => async (dispatch) => {
   try {
-    const response = await axios.get('https://api.spacexdata.com/v3/rockets');
+    const response = await fetch('https://api.spacexdata.com/v3/rockets');
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
 
-    const selectedData = response.data.map((rocket) => ({
+    const rocketData = await response.json();
+    const selectedData = rocketData.map((rocket) => ({
       id: rocket.id,
       name: rocket.rocket_name,
       type: rocket.rocket_type,
